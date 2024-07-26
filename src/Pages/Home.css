@@ -1,0 +1,34 @@
+/* Add this to your CSS file or in a <style> tag */
+*{
+  font-family: "Inter";
+}
+.ant-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ant-card-cover img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.ant-card-meta-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-card-meta-description {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Add this to your CSS file or in a <style> tag */
+.ant-list-item {
+  border: none;
+  padding: 0;
+  margin-bottom: 4px; /* Adjust margin as needed */
+}
+
+.ant-list-item strong {
+  color: #1890ff; /* Customize the color as needed */
+}
