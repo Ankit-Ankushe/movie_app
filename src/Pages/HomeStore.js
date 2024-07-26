@@ -1,4 +1,4 @@
-const apiKey = "3c861c38"
+const apiKey = process.env.OMDB_API_KEY;
 const popularMovies = ["The Shawshank Redemption","The Godfather","The Dark Knight","The Godfather Part II","12 Angry Men","Schindler's List","The Lord of the Rings","Pulp Fiction","The Lord of the Rings: The Fellowship of the Ring","The Good, the Bad and the Ugly","Forrest Gump","The Lord of the Rings: The Two Towers","Fight Club","Inception","Star Wars: Episode V - The Empire Strikes Back","The Matrix","Goodfellas","One Flew Over the Cuckoo's Nest","Se7en","Interstellar","It's a Wonderful Life","Seven Samurai","The Silence of the Lambs","Saving Private Ryan","City of God","Life Is Beautiful","The Green Mile","Terminator 2: Judgment Day","Star Wars: Episode IV - A New Hope","Back to the Future"
 ];
 
